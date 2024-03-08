@@ -1,0 +1,85 @@
+html,body{
+    background: url('4k-cartoon-wpv6b31vbdfrgp00.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(17, 34, 34);
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+header ul
+{
+position: relative;
+display: flex;
+}
+header ul li
+{
+    list-style:none;
+}
+header ul li a
+{
+    display:inline-block;
+    color: #3297ef;
+    font: weight 600px;;
+    margin-left: 100px;
+    text-decoration:underline;
+}
+h1{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 100%;
+    text-align: center;
+    color: rgba(36, 158, 220, 0.697);
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: rgb(20, 199, 239);
+    
+}
+.login{
+    position: relative;
+    max-width: 250px;
+    max-height: 150px;
+    top: 50px;
+    left: 40%;
+    border:solid rgb(243, 208, 208);
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 10px;
+    backdrop-filter:blur(1px);
+    border-color: rgb(152, 135, 115);
+    box-sizing: border-box;
+    box-shadow: 0 0 50px rgb(24, 175, 172);
+
+}
+.login .Username{
+    position: relative;
+    left: 30px;border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.login .country{
+    position: relative;
+    left: 30px;
+    margin-bottom: 10px;
+}
+button{
+    position: relative;
+    left: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    color: rgb(30, 29, 32);
+    background-color: rgb(10, 164, 215);
+    border-radius: 30px;
+}
+
+
